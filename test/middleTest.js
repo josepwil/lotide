@@ -1,5 +1,6 @@
 const middle = require('../middle');
-const { assert } = require('chai');
+const chai = require('chai');
+const assert = chai.assert;
 
 describe('#middle', () => {
 

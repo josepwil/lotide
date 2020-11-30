@@ -1,5 +1,6 @@
 const tail = require('../tail');
-const { assert } = require('chai');
+const chai = require('chai');
+const assert = chai.assert;
 
 describe('#tail', () => {
 
