@@ -31,3 +31,6 @@ const countLetters = function(sentence) {
 
 
 console.log(countLetters('hello i am a string'));
+
+
+module.exports = countLetters;

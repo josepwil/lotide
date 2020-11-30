@@ -40,3 +40,5 @@ const includesT = map(words, word => word.includes('t'));
 assertArraysEqual(firstChar, ["g", "c", "t", "m", "t"]);
 assertArraysEqual(toUpper, ["GROUND", "CONTROL", "TO", "MAJOR", "TOM"]);
 assertArraysEqual(includesT, [ false, true, true, false, true ]);
+
+module.exports = map;
