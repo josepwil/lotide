@@ -1,11 +1,3 @@
-// const assertEqual = function(actual, expected) {
-//   if (actual === expected) {
-//     console.log(`✅ Assertion Passed ✅: ${actual} === ${expected}`);
-//   } else {
-//     console.log(`🛑 Assertion Failed 🛑: ${actual} !== ${expected}`);
-//   }
-// };
-
 // take in array, compare each value if not equal return false
 const eqArrays = function(arrayOne, arrayTwo) {
   // if they're not the same length definitely not equal
@@ -27,17 +19,7 @@ const eqArrays = function(arrayOne, arrayTwo) {
   return true;
 };
 
-console.log(eqArrays([[2, 3], [4]], [[2, 3], [4]])); // => true
-console.log(eqArrays([[2, 3], [4]], [[2, 3], 4])); // => false
-console.log(eqArrays([1, 2, [3]], [1, 2, 3])); // false
-console.log(eqArrays([[1, 2, [[3], 4]], 5, []], [[1, 2, [[3], 4]], 5, []])) // true
-console.log(eqArrays([[1, 2, [[3], 4]], 5, [7]], [[1, 2, [[3], 4]], 5, [6]])) // false
+module.exports = eqArrays;
 
 
-
-
-
-// console.log(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
-// console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => true
-// console.log(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // => false
 
